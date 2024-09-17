@@ -1157,7 +1157,7 @@
           <Folder ZoneFilterEnabled="True" Id="2180d2a2-e75c-4a5a-ad28-248d38782c04" ZoneFilterRegularExpression="^欧米茄绝境验证战$" Name="[6.31] 欧米茄绝境验证战" Enabled="true">
             <Folders />
             <Triggers>
-              <Trigger Enabled="true" Name="设置场地标点" Id="f84a96eb-e0fa-4d6b-bb59-f627c3da1688" RegularExpression="^.{14} ChatLog 00:0839::“欧米茄绝境战”任务开始。$">
+              <Trigger Enabled="true" Name="设置场地标点" Id="f84a96eb-e0fa-4d6b-bb59-f627c3da1688" RegularExpression="^.{14} ChatLog 00:0839::“欧米茄绝境验证战”任务开始。$">
                 <Actions>
                   <Action OrderNumber="1" NamedCallbackName="place" NamedCallbackParam="{&quot;Name&quot;:&quot;欧米茄绝境验证战&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:100.0,&quot;Y&quot;:0.0,&quot;Z&quot;:87.0,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:113.0,&quot;Y&quot;:0.0,&quot;Z&quot;:100.0,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:100.0,&quot;Y&quot;:0.0,&quot;Z&quot;:113.0,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:87.0,&quot;Y&quot;:0.0,&quot;Z&quot;:100.0,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:109.192,&quot;Y&quot;:0.0,&quot;Z&quot;:90.808,&quot;ID&quot;:4,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:109.192,&quot;Y&quot;:0.0,&quot;Z&quot;:109.192,&quot;ID&quot;:5,&quot;Active&quot;:true},&quot;Three&quot;:{&quot;X&quot;:90.808,&quot;Y&quot;:0.0,&quot;Z&quot;:109.192,&quot;ID&quot;:6,&quot;Active&quot;:true},&quot;Four&quot;:{&quot;X&quot;:90.808,&quot;Y&quot;:0.0,&quot;Z&quot;:90.808,&quot;ID&quot;:7,&quot;Active&quot;:true}}" ActionType="NamedCallback">
                     <Condition Enabled="false" Grouping="Or" />
